@@ -1,0 +1,41 @@
+/* app.component.css */
+
+/* Header styles */
+header {
+    background-color: #067b9e;
+    color: #fff;
+    padding: 15px 0;
+    text-size-adjust: auto;
+    font-size: larger;
+    margin: 0%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 50px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #067b9e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0%;
+  }
+  

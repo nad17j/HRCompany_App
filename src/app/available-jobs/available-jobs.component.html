@@ -1,0 +1,16 @@
+
+
+<div class="container">
+    <h2>Available Jobs</h2>
+    <ul>
+      <li *ngFor="let job of jobs">
+        <h3>{{ job.title }}</h3>
+        <p>{{ job.description }}</p>
+        <p>Location: {{ job.location }}</p>
+        <p>Salary: {{ job.salary | currency:'USD':true:'1.2-2' }}</p>
+        <p>Basic Qualification: {{ job.qualification }}</p>
+        <p>Closing Date: {{ job.closingDate | date:'longDate' }}</p>
+      </li>
+    </ul>
+  </div>
+  

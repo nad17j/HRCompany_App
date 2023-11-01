@@ -1,0 +1,14 @@
+
+
+<div class="container">
+    <h2>Job Seeker Registrants</h2>
+    <ul>
+      <li *ngFor="let registrant of registrants">
+        <strong>Name:</strong> {{ registrant.name }}<br>
+        <strong>Email:</strong> {{ registrant.email }}<br>
+        <strong>Job Position:</strong> {{ registrant.position }}<br>
+        <strong>Qualifications:</strong> {{ registrant.qualifications }}
+      </li>
+    </ul>
+  </div>
+  

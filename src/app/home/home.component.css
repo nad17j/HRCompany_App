@@ -1,0 +1,89 @@
+/* app.component.css */
+
+/* Header styles */
+/* In your CSS file (e.g., styles.css) */
+.logo-image {
+  width: 100px;
+  height: 60px;
+  display: block; /* Center horizontally */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text (if any) horizontally */
+}
+
+h1 {
+    background-color: #fff;
+    color: #0d5d75;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+h2 {
+    background-color: #fff;
+    color: #067b9e;
+    padding: 10px 0;
+    text-align: justify;
+  }
+  
+P {
+    background-color: #fff;
+    color: #067b9e;
+    padding: 10px 0;
+    text-align: justify;
+    font-size: large;
+  }
+
+  .our-services-container {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #067b9e;
+  }
+
+  .our-services-text {
+    font-size: x-large;
+    
+  }
+/* Add the following styles to your global CSS or component-specific CSS */
+
+/* Styling for the router links container (e.g., a div or nav element) */
+.router-links-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+/* Styling for individual router link tiles */
+.router-link-tile {
+  text-align: center;
+  padding: 50px;
+  border: 3px solid #067b9e;
+  border-radius: 15px;
+  background-color: #f0f6f8;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  color: #f35212;
+}
+
+/* Hover effect for router link tiles */
+.router-link-tile:hover {
+  background-color: #cafffb;
+}
+
+/* Style for router link text */
+.router-link-text {
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* Styling for the active router link tile */
+.router-link-active {
+  background-color: #4CAF50; /* Change to your desired active link color */
+  color: #fff; /* Change to your desired text color */
+}
+
+  
+  
+ 
